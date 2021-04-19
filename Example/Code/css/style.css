@@ -1,0 +1,117 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+    background-color: crimson; 
+}
+hr {
+    height:3px;
+    width: 100%;
+    color:rgb(134, 130, 130);
+    background-color:rgb(228, 222, 222);
+  }
+.CvTitle
+{
+    background-image: url(../images/Pic_jpg_4.png);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.ImgCvTitle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -10px;
+}
+
+.Header
+{
+    width: 100%;
+    height: 50px;
+ 
+}
+
+.Exp
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+ 
+.MenuExp
+{
+    width:200px;
+   
+}
+.ExpNavDirectionCulum{
+    flex-direction: column;
+ 
+}
+.ExpNavDirectionRow{
+    flex-direction:row;
+    justify-content: flex-end;
+   
+}
+.ExpNav{
+    height: 100%;
+    
+    background-color: rgb(87, 82, 82); 
+    display: flex;
+   
+}
+.ExpNav a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+    border-radius: 15px;
+
+}
+ 
+
+ 
+ 
+ 
+.ExpNav a:hover {
+    background: #1565C0; 
+    color: white;
+    font-size: 20px;
+}
+
+.ExpDetaill
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: flex-start;
+   
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+padding: 10px;
+margin: 10px;
+color:whitesmoke;
+background-color: crimson;
+}
+
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+padding: 2px 10px;
+}
+
+.IframeContent {
+    background-color: rgb(87, 82, 82); 
+}
